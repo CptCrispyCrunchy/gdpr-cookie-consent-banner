@@ -291,7 +291,7 @@
       class="cookieConsent__Button cookieConsent__Button--Close"
       part="button button--close"
       aria-label={closeLabel}
-      on:click={() => { settingsShown = false } }>
+      on:click={() => { settingsShown = false; choose(); } }>
       {closeLabel}
     </button>
   </div>
